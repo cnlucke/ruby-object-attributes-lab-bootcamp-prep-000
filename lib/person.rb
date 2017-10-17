@@ -3,12 +3,12 @@ class Person
     @name = new_name
   end
   def name
-    puts @name
+    @name
   end
   def job=(job_name)
     @job = job_name
   end
   def job
-    puts @job
+    @job
   end
 end
