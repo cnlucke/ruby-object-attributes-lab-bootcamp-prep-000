@@ -1,8 +1,8 @@
 class Dog
-  def bark
-    puts "Woof!"
+  def name (name)
+    @name = name
   end
-  def sit
-    puts "The Dog is sitting"
+  def name
+    puts @name
   end
 end
