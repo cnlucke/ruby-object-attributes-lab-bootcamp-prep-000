@@ -1,8 +1,8 @@
 class Person
-  def talk
-    puts "Hello World!"
+  def name (name)
+    @name = name
   end
-  def walk
-    puts "The Person is walking"
+  def name
+    puts @name
   end
 end
